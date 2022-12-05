@@ -11,11 +11,18 @@ npm install react-native-klc
 ## Usage
 
 ```js
-import { multiply } from 'react-native-klc';
+import { add, substract, multiply, devide } from 'react-native-klc';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await add(10, 3);
+
+const result = await substract(10, 3);
+
+const result = await multiply(10, 3);
+
+const result = await devide(10, 3);
+
 ```
 
 ## Contributing
